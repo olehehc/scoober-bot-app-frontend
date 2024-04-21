@@ -8,18 +8,26 @@ import {
 
 import OpenShifts from './Pages/OpenShifts.js';
 import Schedule from './Pages/Schedule.js';
+import Salary from './Pages/Salary.js';
+import Profile from './Pages/Profile.js';
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/schedule" exact>
-          <Schedule />
-        </Route>
         <Route path="/open-shifts" exact>
           <OpenShifts />
         </Route>
-        <Redirect to="/schedule" />
+        <Route path="/schedule" exact>
+          <Schedule />
+        </Route>
+        <Route path="/salary" exact>
+          <Salary />
+        </Route>
+        <Route path="/profile" exact>
+          <Profile />
+        </Route>
+        <Redirect to="/open-shifts" />
       </Switch>
     </Router>
   );

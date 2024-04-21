@@ -2,12 +2,12 @@ import React from 'react';
 
 import MainNavigation from '../Components/Navigation/MainNavigation';
 
-const Schedule = () => {
+const Profile = () => {
   return (
     <MainNavigation>
-      <h1>Schedule</h1>
+      <h1>Profile</h1>
     </MainNavigation>
   );
 };
 
-export default Schedule;
+export default Profile;

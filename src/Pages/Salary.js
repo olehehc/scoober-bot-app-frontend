@@ -2,12 +2,12 @@ import React from 'react';
 
 import MainNavigation from '../Components/Navigation/MainNavigation';
 
-const Schedule = () => {
+const Salary = () => {
   return (
     <MainNavigation>
-      <h1>Schedule</h1>
+      <h1>Salary</h1>
     </MainNavigation>
   );
 };
 
-export default Schedule;
+export default Salary;
